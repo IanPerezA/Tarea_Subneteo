@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/Subneteo.js" ></script>
+    <link rel="stylesheet" href="css/MainEstilo.css"/>
+    <title>Programa de Subneteo</title>
+</head>
+<body>
+    <h1><center>EJERCICIO DE SUBNETEO</center></h1>
+    <fieldset class="contenedortodo">
+        <div id="paso1"> 
+                <label>Paso1. Teclee en  cada recuadro los octetos de la IP</label>
+                <label>Por ejemplo: [192].  [168].  [1].  [0] </label><br><br>
+                <input type="number" id="octeto1" class="ip input" min="0"/><label>.</label>
+                <input type="number" id="octeto2" class="ip input" min="0"/><label>.</label>
+                <input type="number" id="octeto3" class="ip input" min="0"/><label>.</label>
+                <input type="number" id="octeto4" class="ip input" min="0"/>
+               
+        </div>
+        <div class="paso2">
+            <label>Paso 2.Inserte aqui el numero de subredes: </label>
+            <input type="number" id="cantidad" class="input">
+        </div>
+
+        <div class="container">
+            <div id="paso3">
+                <label>Paso 3. Aqui aparece su tabla de subredes</label>
+                
+                <div id="resultado" class="input">
+                    <table id="tabla">
+                        <th id = "subredes">Subred: </th>
+                        <th id = "hosts">Hosts x Subred: </th>
+                    </table>
+                    
+                </div>
+            
+            </div>
+        </div>
+         <div class="tabs"> 
+                    <input type="button" value="Subnetear" id="subnetear" onclick="subnetear()" class="btn btnActivo" >
+                    
+        </div>
+        
+    </fieldset>
+    <div class="BotonBorrar">
+        <center><input type="button" value="Limpiar pantalla" onclick="limpiar()" class="btn btnActivo" ></center>
+    </div>
+    
+</body>
+</html>

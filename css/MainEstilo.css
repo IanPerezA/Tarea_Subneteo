@@ -1,0 +1,127 @@
+html{
+	background-position:center;
+    background-size: 100% 100%;
+    background-color: #62BEC1;
+}
+fieldset{
+    box-shadow: 5px 5px 5px #646881 ;
+    border-bottom-left-radius: 10px;
+}
+.btn{
+    color: #ffff;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 10px;
+}
+.btnActivo{
+    background-color: #0f224b;
+}
+.btnDesactivo{
+    background-color: #2a4475;
+}
+.contenedortodo{
+	width:80%;
+	background-color: #657785;
+    padding: 35px 45px 35px 50px;
+    min-height: 350px;
+    max-height: 600px;
+    margin-bottom: 20px;
+	margin:auto;
+	margin-top:45px;
+    border-radius:9px;
+    overflow: hidden;
+}
+p{
+    font-size:18px; 
+    color: #CFD5E6;
+    font-family: sans-serif;
+    display: inline;
+    min-width: 500px;
+    float: left;
+}
+label{
+    font-size:18px; 
+    color: #CFD5E6;
+    font-family: sans-serif;
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ip{
+    width:10%;
+    height:20px;
+    line-height:150%;
+    resize:none;
+}
+.input{
+    font-family:sans-serif;
+    font-size:18px;
+    line-height:22px;
+    background-color:lightseagreen;
+    color: #ffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:2px solid #a0b3b0;
+}
+#paso1{  
+    width: 35%;
+    display: inline;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    margin-right:30px;
+    border-color: 2px solid black ;
+    
+ }
+ #paso2{
+     width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+    margin-left:30px;
+ }
+
+#resultado{ 
+    
+    width: 120%; 
+    float:left;
+    height: 200px;
+    display: inline; 
+    padding: 15px;
+    word-wrap: break-word;
+    overflow: auto;
+} 
+.BotonBorrar{
+    margin-top: 25px;
+}
+.container{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: inherit;
+    margin-bottom: none;
+    float: inline-start;
+    margin-left:30px;
+}
+#cantidad{
+    width: 50px; 
+}
+#tabla{
+    border: 2px solid black;
+    
+}
+#tabla td{
+    text-align: center;
+    border:black 2px solid;
+
+}
+
